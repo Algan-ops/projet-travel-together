@@ -1,0 +1,50 @@
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.ecrant{
+    overflow: hidden;
+    display: flex;
+    margin-left: 250px;
+    height: 250px;
+    width: 150px;
+}
+
+.service-gauche{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/assets/img/homme-assis-batiment.jpg);
+    height: 300px;
+    width: 400px;
+    color: white;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.service-haut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/assets/img/homme-assis-batiment.jpg);
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.service-bas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/assets/img/homme-assis-batiment.jpg);
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    color: white;
+}

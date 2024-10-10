@@ -7,7 +7,19 @@ header{
 
 nav{
     position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
+}
+
+ul{
+    display: flex;
+    margin-right: 90px;
+}
+
+ul li{
+    padding: 18px;
 }
 
 .fa-bars{
