@@ -1,38 +1,71 @@
 @use "../abstract/variable" as var;
 
-header{
+// header{
     
-
-}
+// }
 
 nav{
     position:relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 ul{
     display: flex;
-    margin-right: 90px;
+    margin-right: 25px;
+    cursor: pointer;
 }
 
 ul li{
     padding: 18px;
 }
 
-.fa-bars{
 
+.navbar ul li a:hover{
+    transition: font-size 0.4s ease; /* Effet de transition fluide */
+    font-size: 20px; /* Taille des icônes au survol */
+    color: #ffffff; /* Changer la couleur au survol (ex: LinkedIn Blue) */
+    background-color: black;
 }
 
-ul{
 
-}
 
-ul li {
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .fa-bars{
+
+// }
+
+// ul{
+
+// }
+
+// ul li {
+
+// }
 
 // @media screen and (max-width:700px) {
 //     .fa-bars{

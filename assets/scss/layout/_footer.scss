@@ -4,3 +4,88 @@
     color: white;
     
 }
+.bouton2{
+    display: flex;
+    color: black;
+    background-color: white;
+    width: 135px;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 3px;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.3);
+    // margin-top: 100px;
+    // margin-left: 90px;
+}
+
+.orange{
+    display: flex;
+    color: white;
+    background-color: #E7816B;
+    margin-left: 5%;
+    margin-right: 3%;
+    border-radius: 5px;
+    height: 200px;
+    transform: translateY(-80px);
+}
+
+
+.orange a:hover{
+    color: #ffffff; /* Changer la couleur au survol (ex: LinkedIn Blue) */
+    background-color: black;
+}
+
+
+.haut-footer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+    padding-bottom: 30px;
+    transition: font-size 0.3s ease; /* Effet de transition fluide */
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.travel{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 35px;
+    margin-top: 55px;
+}
+
+.logoreso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoreso a i {
+    color: white;
+    padding: 10px;
+    font-size: 30px; /* Taille des icônes */
+    transition: font-size 0.3s ease; /* Effet de transition fluide */
+}
+
+
+.logoreso a:hover i {
+    font-size: 35px; /* Taille des icônes au survol */
+    color: #0077b5; /* Changer la couleur au survol (ex: LinkedIn Blue) */
+}
+
+.logoreso a:hover .fa-youtube{
+    font-size: 35px;
+    color: #ff0000; 
+}
+
+.logoreso a:hover .fa-linkedin-in{
+    font-size: 35px;
+    color: #ca1d88; 
+}
+
+
+.haut-footer ul li a:hover{
+    transition: font-size 0.4s ease; /* Effet de transition fluide */
+    font-size: 21px; /* Taille des icônes au survol */
+    background-color: #E7816B;
+    color: black;
+}
