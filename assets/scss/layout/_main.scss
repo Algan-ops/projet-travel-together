@@ -17,7 +17,11 @@
     margin-top: 50px;
     border-radius: 5px;
     height: 300px;
+}
+
+.bloc-tel{
     overflow: hidden;
+    width: 50%;
 }
 
 
@@ -91,9 +95,8 @@ h2{
     display: flex;
     flex-direction: row;
     // background-color: #F5F5F5;
-    margin-bottom: 15%;
     background-image: url(/assets/img/wave.svg);
-    height: 19rem;
+    width: 100%;
 }
 
 // @media screen and (max-width: 821px) {
@@ -155,13 +158,102 @@ h2{
     padding-top: 10px;
 }
 
-.center-bouton{
-    display: flex;
-    align-items: center;
-    margin-left: 25%;
-}
-
 
 #lorem-btn{
     font-size: 24px;
+}
+
+
+@media screen and (max-width: 864px) {
+    .container-article{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .article-bus{
+       margin-left: 90px;
+       margin-right: 100px;
+    }
+
+    .article-sleep{
+        margin-left: 90px;
+        margin-right: 100px;
+    }
+
+    .orange{
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .ecrant{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       object-fit: cover;
+       padding-top: 10px;
+       background-size: cover;
+       padding-left: 10px;
+    }   
+}   
+
+@media screen and (max-width: 720px) {
+
+    .fa-bars{
+        display: block;
+        margin-left: 1rem;
+    }
+
+    ul{
+        display:none;
+    }
+
+    .menu_dropdown:hover ul{
+        display:block;
+        position: absolute;
+        top:2rem ;
+        left:0rem;
+        background-color: black;
+        color:white;
+    }
+
+    ul li{
+        padding: 1rem;
+    }
+
+
+    .center-bouton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bouton2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    .orange{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .travel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .marg{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
