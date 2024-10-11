@@ -20,6 +20,8 @@
     overflow: hidden;
 }
 
+
+
 .bloc1{
     display: flex;
     flex-direction: column;
@@ -82,14 +84,25 @@ h2{
     justify-content: center;
     font-size: 50px;
     margin: 2%;
+
 }
 
 .container-article{
     display: flex;
     flex-direction: row;
-    background-color: #F5F5F5;
+    // background-color: #F5F5F5;
     margin-bottom: 15%;
+    background-image: url(/assets/img/wave.svg);
+    height: 19rem;
 }
+
+// @media screen and (max-width: 821px) {
+//     .container-article{
+//         display: flex;
+//         flex-direction: column;
+//     }
+// }
+
 
 .container-article i{
     font-size: 80px;
@@ -152,11 +165,3 @@ h2{
 #lorem-btn{
     font-size: 24px;
 }
-
-
-@media screen and (max-width: 700px) {
-    .ecrant {
-        
-    }
-}
-    

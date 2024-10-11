@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Lato";
-  src: url(../../font/Lato-Regular.ttf);
+  src: url(../font/Lato-Regular.ttf);
 }
 * {
   margin: 0px;
@@ -205,8 +205,9 @@ h2 {
 .container-article {
   display: flex;
   flex-direction: row;
-  background-color: #F5F5F5;
   margin-bottom: 15%;
+  background-image: url(/assets/img/wave.svg);
+  height: 19rem;
 }
 
 .container-article i {
