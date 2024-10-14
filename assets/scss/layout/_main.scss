@@ -6,6 +6,10 @@
     display: block;
 }
 
+.oorange {
+    color: #E7816B;
+}
+
 
 .vue-tel{
     color: white;
@@ -23,7 +27,6 @@
     overflow: hidden;
     width: 50%;
 }
-
 
 
 .bloc1{
@@ -49,13 +52,13 @@ h1{
     padding: 2px;
     border-radius: 3px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-    transition: font-size 0.3s ease; /* Effet de transition fluide */
+    transition: font-size 0.3s ease; 
 }
 
 
 .bloc1 a:hover{
-    color: #ffffff; /* Changer la couleur au survol (ex: LinkedIn Blue) */
-    background-color: black;
+    color: #ffffff; 
+    background-color: black; 
 }
 
 h3{
@@ -81,6 +84,11 @@ h2{
 
 .container-services p{
     color: white;
+}
+
+.service-bas p:hover {
+    color: #ff8800;
+    cursor: pointer; 
 }
 
 .end{
@@ -154,7 +162,7 @@ h2{
 }
 
 .lorem-gauche p {
-    color: rgba(255, 255, 255, 0.507);
+    color: rgb(255, 255, 255);
     padding-top: 10px;
 }
 
@@ -162,6 +170,8 @@ h2{
 #lorem-btn{
     font-size: 24px;
 }
+
+
 
 
 @media screen and (max-width: 864px) {
@@ -188,42 +198,9 @@ h2{
     }
 }
 
-@media screen and (max-width: 700px) {
-    .ecrant{
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       object-fit: cover;
-       padding-top: 10px;
-       background-size: cover;
-       padding-left: 10px;
-    }   
-}   
+
 
 @media screen and (max-width: 720px) {
-
-    .fa-bars{
-        display: block;
-        margin-left: 1rem;
-    }
-
-    ul{
-        display:none;
-    }
-
-    .menu_dropdown:hover ul{
-        display:block;
-        position: absolute;
-        top:2rem ;
-        left:0rem;
-        background-color: black;
-        color:white;
-    }
-
-    ul li{
-        padding: 1rem;
-    }
-
 
     .center-bouton{
         display: flex;
@@ -256,4 +233,38 @@ h2{
         margin-top: 10px;
         margin-bottom: 10px;
     }
+}
+
+@media screen and (max-width: 700px) {
+    .ecrant{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       object-fit: cover;
+       padding-top: 10px;
+       background-size: cover;
+       padding-left: 10px;
+    }   
+}   
+
+
+
+
+@media screen and (max-width: 550px) {
+    .ecrant {
+        display: none;
+    }
+
+    .bloc-tel {
+        display: none;
+    }
+    
+
+    .bloc1 {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
 }

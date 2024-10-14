@@ -1,5 +1,5 @@
 .logo{
-    width: 10%;
+    width: 150px;
     background-size: cover;
     background-position: center;
     margin-left: 5%;
@@ -36,7 +36,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/assets/img/homme-assis-batiment.jpg);
+    background-image: url(../img/homme-assis-batiment.jpg);
     color: white;
     border-radius: 25px;
     margin-right: 5px;
@@ -56,7 +56,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/assets/img/passport.jpg);
+    background-image: url(../img/passport.jpg);
     border-radius: 25px;
     margin-bottom: 5px;
     color: white;
@@ -71,7 +71,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/assets/img/montgolfiere.jpg);
+    background-image: url(../img/montgolfiere.jpg);
     border-radius: 25px;
     color: white;
     background-size: cover;
