@@ -1,6 +1,42 @@
 @use "../abstract/variable" as var;
 
-body{
-    background-color: rgb(255, 255, 255);
-    font-family: "Lato";
+
+.mainbg {
+    font-family: "BrunoAce";
+    margin-left: 250px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+
+@media screen and (max-width: 806px) {
+  body {
+    margin-left: 150px;
+ 
+
+  }
+
+  .mainbg {
+    margin-left: 150px;
+  }
 }
+
+                                  // Partie project // 
+
+
+.body_project {
+  background-color: rgb(27, 25, 25);
+  color: white;
+  font-family: "BrunoAce";
+}
+

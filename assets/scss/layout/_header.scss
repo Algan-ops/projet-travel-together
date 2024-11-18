@@ -1,69 +1,143 @@
 @use "../abstract/variable" as var;
 
-// header{
-    
-// }
+#debut {
 
-nav{
-    position:relative;
+.nav_index{
     display: flex;
-    align-items: center;
-    justify-content: space-between;   
-}
-
-nav .fa-bars{
-    display: none;
-}
-
-ul{
-    display: flex;
-    margin-right: 25px;
-    cursor: pointer;
-}
-
-ul li{
-    padding: 18px;
-}
-
-
-.navbar ul li a:hover{
-    transition: font-size 0.4s ease;
-    font-size: 20px; 
-    color: #ffffff; 
+    position: absolute;
     background-color: black;
+    width: 250px;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    
 }
 
+ul li {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 32px;
+    border-bottom: solid grey;
+    padding-bottom: 35px;
+    width: 250px;
 
-@media screen and (max-width: 700px) {
-
-
-
-    nav .fa-bars{
-        display: block;
-        margin-right: 2rem;
-        font-size: 30px;
-        margin-top: 1rem;
-    }
-
-    ul{
-        display:none;
-    }
-
-    .menu_dropdown:hover ul{
-        display:block;
-        position: absolute;
-        top:2rem ;
-        left:0rem;
-        background-color: black;
-        color:white;
-    }
-
-    ul li{
-        padding: 1rem;
+    a {
+      color: rgb(255, 255, 255);
+      display: block;
+      
     }
 
 }
 
+ul li a:hover {
+  transform: scale(1.2);
+  color: #19F2E7;
+  transition: font-size 0.3s ease; /* Effet de transition fluide */
+}
+
+
+.logo {
+    width: 250px;
+
+}
+
+.logoreso{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+}
+
+.logoreso a i {
+  color: white;
+  padding: 10px;
+  font-size: 30px; /* Taille des icônes */
+  transition: font-size 0.3s ease; /* Effet de transition fluide */
+}
+
+
+.logoreso a:hover i {
+  font-size: 35px; /* Taille des icônes au survol */
+  color: #0077b5; /* Changer la couleur au survol (ex: LinkedIn Blue) */
+}
+
+.logoreso a:hover .fa-youtube{
+  font-size: 35px;
+  color: #ff0000; 
+}
+
+.logoreso a:hover .fa-linkedin-in{
+  font-size: 35px;
+  color: #ca1d88; 
+}
+
+
+.haut-footer ul li a:hover{
+  transition: font-size 0.4s ease; /* Effet de transition fluide */
+  font-size: 21px; /* Taille des icônes au survol */
+  background-color: #E7816B;
+  color: black;
+}
+
+
+  .saut {
+    display: block;
+  }
+
+  @media screen and (max-width: 806px) {
+
+    .nav_index {
+      width: 150px;
+    }
+
+    nav {
+      width: 150px;
+      height: 100vh;
+      
+    }
+    .logo {
+      width: 150px;
+  
+    }
+    ul li {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 16px;
+      border-bottom: solid grey;
+      padding-bottom: 35px;   
+      width: 150px;    
+    }
+  }
+}
+
+                                    // Partie project // 
+
+
+ .h1_project {
+  transform: translateX(180px);
+ }
+
+
+.nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+
+  
+}
+
+.ul_project {
+  display: flex;
+  margin-right: 2rem;
+
+  li {
+    padding: 50px;
+    border-left: solid white 1px;
+    
+  
+  }
+}
 
 
 

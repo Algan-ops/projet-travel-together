@@ -1,87 +1,52 @@
-.logo{
-    width: 150px;
+.tkt {
+    background-image: url(..//img/theme_dofus.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-left: 5%;
-    
+
+    h1 {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.65);
+        text-align: center;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        border-radius: 100px;
+      }
+
 }
 
-.ecrant{
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-    object-fit: cover;
-    background-size: contain;
-    height: 100%;
-    padding-left: 35%;
+
+                                  // Partie project // 
+
+
+.home {
+    width: 100px;
+    margin-left: 2rem;
+    border-radius: 10px;
 }
 
-.overlay {
-    position: absolute;
-    border-radius: 25px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* Couleur noire avec opacité de 50% */
-    z-index: 1; /* Placer l'overlay au-dessus de l'image */
-  }
-
-
-.service-gauche{
-    filter: brightness(90%);
-    width: 45%;
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../img/homme-assis-batiment.jpg);
-    color: white;
-    border-radius: 25px;
-    margin-right: 5px;
-    background-size: cover;
-    background-position: center;
+.article1 {
+    img {
+        width: 1225px;
+        height: 565px;
+        margin-left: 150px;
+    }
 }
 
-.service-droite{
-    width: 50%;
-    height: 450px;
+.article2 {
+    img {
+        width: 1225px;
+        height: 565px;
+        margin-left: 150px;
+    }
 }
 
-.service-haut{
-    filter: brightness(90%);
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../img/passport.jpg);
-    border-radius: 25px;
-    margin-bottom: 5px;
-    color: white;
-    background-size: cover;
-    background-position: center;
-}
-
-.service-bas{
-    filter: brightness(90%);
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../img/montgolfiere.jpg);
-    border-radius: 25px;
-    color: white;
-    background-size: cover;
-    background-position: center;
-}
-
-.logo2{
-    width: 20%;
-    background-size: cover;
-    background-position: center;
-    margin-left: 3%;
-    
+.article3 {
+    img {
+        width: 1225px;
+        height: 565px;
+        margin-left: 150px;
+    }
 }
